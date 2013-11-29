@@ -5,7 +5,8 @@ exif
 
 
 
-case 5: //取全整INT类型分数(RATIONAL)
+					
+					case 5: //取全整INT类型分数(RATIONAL)
 					offset=tiff.readUnsignedInt();
 					tiff.position = offset;
 					value = tiff.readUnsignedInt() + "/" + tiff.readUnsignedInt();
